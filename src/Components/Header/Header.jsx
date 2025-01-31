@@ -172,7 +172,7 @@ const Header = () => {
                                 </div>
 
                                 {isOpen && (
-                                    <div className="fixed left-0 top-[50px] w-full h-screen bg-white lg:hidden">
+                                    <div className="fixed left-0 top-[50px] w-full h-screen lg:hidden">
                                         {navLinks.map((link, index) => (
                                             <Link
                                                 key={index}
