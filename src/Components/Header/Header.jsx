@@ -116,6 +116,7 @@ const Header = () => {
                     </div>
                 </div>
 
+
                 {/* last header  start*/}
                 <div className='hidden md:block mt-5 h-[50px] w-full bg-[#0090F0CC]'>
                     <div className='w-8/12 mx-auto open-sans-font '>
@@ -137,6 +138,8 @@ const Header = () => {
                 </div>
                 {/* last header end */}
             </div>
+
+
 
             {/* responsive for mobile Start*/}
             <div className='md:hidden'>
