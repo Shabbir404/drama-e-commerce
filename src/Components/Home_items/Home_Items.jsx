@@ -16,6 +16,7 @@ import { IoMdArrowDroprightCircle } from "react-icons/io";
 import playGamesIMG from '../../imgs/games.jpeg'
 import nikonCamIMG from '../../imgs/NikonCam.jpeg'
 import yearphoneIMG from '../../imgs/yearphone.jpeg'
+import Items_Showcase from '../Showcase/Items_Showcase';
 
 const Home_Items = () => {
     return (
@@ -201,7 +202,7 @@ const Home_Items = () => {
                         </div>
                         <hr className='ml-14 border-t-2 -mt-[1.5px] text-gray-300  mb-4' />
                         {/* hr end */}
-                        <div className='md:flex mt-12 '>
+                        <div className='md:flex mt-12 md:gap-2.5'>
                             <div className="relative">
                                 <img className='h-full w-full md:h-[200px] md:w-[200px]' src={alexaIMG} alt="" />
                                 <span className="absolute top-0 left-0 bg-[#0090F0] text-white text-xs px-2 py-1 rounded-full">NEW</span>
@@ -281,7 +282,7 @@ const Home_Items = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='md:flex mt-12'>
+                        <div className='md:flex mt-12 md:gap-2.5'>
                             <div className="relative">
                                 <img className='h-full w-full md:h-[200px] md:w-[200px]' src={alexaIMG} alt="" />
                                 <span className="absolute top-0 left-0 bg-[#0090F0] text-white text-xs px-2 py-1 rounded-full">NEW</span>
@@ -363,12 +364,15 @@ const Home_Items = () => {
                         </div>
                     </div>
                     {/* more feature div end */}
-
                     <div className='md:flex md:gap-4 mt-10 mb-10'>
                         <img className='h-full w-full md:w-[305px] md:h-[299px]' src={playGamesIMG} alt="" />
                         <img className='h-full w-full md:w-[305px] md:h-[299px]' src={nikonCamIMG} alt="" />
                         <img className='h-full w-full md:w-[305px] md:h-[299px]' src={yearphoneIMG} alt="" />
                     </div>
+
+                    <Items_Showcase></Items_Showcase>
+
+
                 </div>
             </div>
         </div >
