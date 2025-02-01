@@ -25,37 +25,37 @@ const Home = () => {
                     </div>
                     {/* facilitys section start*/}
                     <div className='mt-5 border-1 md:flex  border-gray-300 md:h-[80px] '>
-                        <div className='flex gap-3 p-4'>
+                        <div className='flex gap-3 md:mr-2 p-4'>
                             <img src={delivIC} alt="" />
                             <div>
-                                <h1 className='text-md'>Free Shipping</h1>
+                                <h1 className='text-md font-medium'>Free Shipping</h1>
                                 <p className='text-xs text-gray-500'>
                                     On all orders over $75.00
                                 </p>
                             </div>
                         </div>
-                        <div className='flex gap-3 p-4'>
+                        <div className='flex gap-3 md:ml-4 md:mr-2 p-4'>
                             <img src={retunIc} alt="" />
                             <div>
-                                <h1 className='text-md'>Free Returns</h1>
+                                <h1 className='text-md font-medium'>Free Returns</h1>
                                 <p className='text-xs text-gray-500'>
                                     Returns are free within 9 days
                                 </p>
                             </div>
                         </div>
-                        <div className='flex gap-3 p-4'>
+                        <div className='flex gap-3 md:ml-4 p-4'>
                             <img src={secIC} alt="" />
                             <div>
-                                <h1 className='text-md'>100% Payment Secure</h1>
+                                <h1 className='text-md font-medium'>100% Payment Secure</h1>
                                 <p className='text-xs text-gray-500'>
                                     Your payment are safe with us.
                                 </p>
                             </div>
                         </div>
-                        <div className='flex gap-3 p-4'>
+                        <div className='flex gap-3 md:ml-8 p-4'>
                             <img src={supportIC} alt="" />
                             <div>
-                                <h1 className='text-md'>Support 24/7</h1>
+                                <h1 className='text-md font-medium'>Support 24/7</h1>
                                 <p className='text-xs text-gray-500'>
                                     Contact us 24 hours a day
                                 </p>
@@ -66,7 +66,7 @@ const Home = () => {
                     {/* facilitys section  end*/}
 
                     <div className='mt-5 md:flex md:gap-3'>
-                        <img className='w-full md:w-[250px] h-full md:h-[300px]' src={watchIMG} alt="" />
+                        <img className='w-full md:w-[full] h-full md:h-[300px]' src={watchIMG} alt="" />
                         <img className='md:mt-0 md:mb-0 mt-5 mb-5 w-[450px] h-[300px]' src={earbirdIMG} alt="" />
                         <img className='h-full w-full md:w-[250px]  md:h-[300px]' src={speakerIMG} alt="" />
                     </div>
