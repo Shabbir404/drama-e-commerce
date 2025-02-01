@@ -12,7 +12,7 @@ const Home = () => {
     return (
         <div className=" ">
             <div className='relative mt-3 md:mt-0 '>
-                <div className='ml-20'>
+                <div className=''>
                     <img src={imgCam} alt="" />
                 </div>
                 <div className='md:w-8/12 mx-auto'>
