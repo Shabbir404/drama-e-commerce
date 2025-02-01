@@ -68,7 +68,7 @@ const Header = () => {
 
 
                         {/* middle header start */}
-                        <div className='mt-6 flex space-x-15'>
+                        <div className='mt-6 flex space-x-25'>
                             <div className='hidden md:block'>
                                 <img src={Logo} alt="" />
                             </div>

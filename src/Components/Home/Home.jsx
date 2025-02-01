@@ -12,7 +12,7 @@ const Home = () => {
     return (
         <div className=" ">
             <div className='relative mt-3 md:mt-0 '>
-                <div className=''>
+                <div className='ml-20'>
                     <img src={imgCam} alt="" />
                 </div>
                 <div className='md:w-8/12 mx-auto'>
@@ -65,9 +65,9 @@ const Home = () => {
                     </div>
                     {/* facilitys section  end*/}
 
-                    <div className='mt-5 md:flex md:gap-3'>
-                        <img className='w-full md:w-[full] h-full md:h-[300px]' src={watchIMG} alt="" />
-                        <img className='md:mt-0 md:mb-0 mt-5 mb-5 w-[450px] h-[300px]' src={earbirdIMG} alt="" />
+                    <div className='mt-5 md:flex md:gap-5'>
+                        <img className='w-full md:w-[250px] h-full md:h-[300px]' src={watchIMG} alt="" />
+                        <img className='md:mt-0 md:mb-0 mt-5 mb-5 w-[540px] h-[300px]' src={earbirdIMG} alt="" />
                         <img className='h-full w-full md:w-[250px]  md:h-[300px]' src={speakerIMG} alt="" />
                     </div>
                     <div className='mt-8'>
